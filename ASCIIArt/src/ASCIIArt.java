@@ -17,11 +17,43 @@
 // YOU CODE HERE :) 
 
 public class ASCIIArt {
+	private static void thickhead() {
+		System.out.println("     \\\\||//");
+		System.out.println("    [ o  o ]");
+		System.out.println("     ( __ )");
+	}
+	private static void thicktoparm() {
+		System.out.println("--o0O--------------");
+	}
+	private static void thickboard() {
+		System.out.println("|  I can do this  |");
+		System.out.println("|because I am tall|");
+		System.out.println("|  o o o o o o o  |");
+		System.out.println("|   o o o o o o   |");
+		System.out.println("|    o o o o o    |");
+		System.out.println("|     o o o o     |");
+		System.out.println("|      o o o      |");
+		System.out.println("|       o o       |");
+		System.out.println("|        o        |");
+	}
+	private static void thickbottomarm() {
+		System.out.println("------------O0o----");
+	}
+	private static void thicklegs() {
+		System.out.println("   |  |     |  |");
+		System.out.println("   |  |     |  |");
+		System.out.println("    ||       || ");
+		System.out.println("  __  _     _  __");
+		System.out.println(" (     )   (     )");
+		System.out.println("  -----     -----");
+	}
+	
 	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
-		System.out.println("THIS IS MY ASCII ART!!!!");
+		thickhead();
+		thicktoparm();
+		thickboard();
+		thickbottomarm();
+		thicklegs();
+		System.out.println("This is my man Chadwick. He's got Gucci shoes and thick body parts.");
 	}
 }
